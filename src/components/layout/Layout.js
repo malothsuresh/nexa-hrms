@@ -82,7 +82,7 @@ export default function Layout({ children, activePage, onNavigate }) {
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               fontSize: 18, boxShadow: '0 4px 15px rgba(99,102,241,0.3)',
             }}>⚡</div>
-            {sidebarOpen && <span style={{ fontWeight: 700, color: '#f1f5f9', fontSize: 18, letterSpacing: '-0.02em' }}>NeXa <span style={{ color: '#818cf8' }}>HR</span></span>}
+            {sidebarOpen && <span style={{ fontWeight: 700, color: '#f1f5f9', fontSize: 18, letterSpacing: '-0.02em' }}>teamforsolution <span style={{ color: '#818cf8' }}>HR</span></span>}
           </div>
         </div>
 

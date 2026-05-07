@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
 
 const DEMO_ACCOUNTS = [
-  { label: 'Admin', email: 'robert.hargreaves@nexahr.com', password: 'admin123', color: '#6366f1' },
-  { label: 'HR Manager', email: 'sarah.mitchell@nexahr.com', password: 'hr123', color: '#10b981' },
-  { label: 'Employee (UK)', email: 'james.thornton@nexahr.com', password: 'emp123', color: '#f59e0b' },
-  { label: 'Employee (IN)', email: 'priya.sharma@nexahr.com', password: 'emp123', color: '#ef4444' },
+  { label: 'Admin', email: 'robert.hargreaves@teamforsolutionhr.com', password: 'admin123', color: '#6366f1' },
+  { label: 'HR Manager', email: 'sarah.mitchell@teamforsolutionhr.com', password: 'hr123', color: '#10b981' },
+  { label: 'Employee (UK)', email: 'james.thornton@teamforsolutionhr.com', password: 'emp123', color: '#f59e0b' },
+  { label: 'Employee (IN)', email: 'priya.sharma@teamforsolutionhr.com', password: 'emp123', color: '#ef4444' },
 ];
 
 export default function Login({ onLogin }) {
@@ -88,7 +88,7 @@ export default function Login({ onLogin }) {
             boxShadow: '0 8px 30px rgba(99,102,241,0.4)',
           }}>⚡</div>
           <h1 style={{ fontFamily: "'Playfair Display', serif", color: '#f1f5f9', fontSize: 28, margin: '0 0 4px', fontWeight: 700 }}>
-            NeXa <span style={{ color: '#818cf8' }}>HR</span>
+            teamforsolution <span style={{ color: '#818cf8' }}>HR</span>
           </h1>
           <p style={{ color: '#64748b', fontSize: 13, margin: 0 }}>Multi-Country HR Management System</p>
         </div>

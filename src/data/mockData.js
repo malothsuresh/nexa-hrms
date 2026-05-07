@@ -19,7 +19,7 @@ export const DEPARTMENTS = [
 
 export const EMPLOYEES = [
   {
-    id: 'EMP-001', firstName: 'Sarah', lastName: 'Mitchell', email: 'sarah.mitchell@nexahr.com',
+    id: 'EMP-001', firstName: 'Sarah', lastName: 'Mitchell', email: 'sarah.mitchell@teamforsolutionhr.com',
     phone: '+44 7911 123456', gender: 'Female', dob: '1990-03-15', country: 'UK',
     department: 'dep-2', designation: 'HR Manager', employmentType: 'Full-Time',
     joiningDate: '2020-01-10', salary: 52000, currency: 'GBP',
@@ -32,7 +32,7 @@ export const EMPLOYEES = [
     pension: { enrolled: true, contribution: 5, employer: 8 },
   },
   {
-    id: 'EMP-002', firstName: 'James', lastName: 'Thornton', email: 'james.thornton@nexahr.com',
+    id: 'EMP-002', firstName: 'James', lastName: 'Thornton', email: 'james.thornton@teamforsolutionhr.com',
     phone: '+44 7922 234567', gender: 'Male', dob: '1988-07-22', country: 'UK',
     department: 'dep-1', designation: 'Senior Engineer', employmentType: 'Full-Time',
     joiningDate: '2019-06-15', salary: 68000, currency: 'GBP',
@@ -45,7 +45,7 @@ export const EMPLOYEES = [
     pension: { enrolled: true, contribution: 5, employer: 8 },
   },
   {
-    id: 'EMP-003', firstName: 'Robert', lastName: 'Hargreaves', email: 'robert.hargreaves@nexahr.com',
+    id: 'EMP-003', firstName: 'Robert', lastName: 'Hargreaves', email: 'robert.hargreaves@teamforsolutionhr.com',
     phone: '+44 7933 345678', gender: 'Male', dob: '1982-11-05', country: 'UK',
     department: 'dep-1', designation: 'Engineering Director', employmentType: 'Full-Time',
     joiningDate: '2017-03-01', salary: 95000, currency: 'GBP',
@@ -58,7 +58,7 @@ export const EMPLOYEES = [
     pension: { enrolled: true, contribution: 8, employer: 10 },
   },
   {
-    id: 'EMP-004', firstName: 'Priya', lastName: 'Sharma', email: 'priya.sharma@nexahr.com',
+    id: 'EMP-004', firstName: 'Priya', lastName: 'Sharma', email: 'priya.sharma@teamforsolutionhr.com',
     phone: '+91 98765 43210', gender: 'Female', dob: '1993-05-28', country: 'IN',
     department: 'dep-1', designation: 'Full Stack Developer', employmentType: 'Full-Time',
     joiningDate: '2021-08-01', salary: 1200000, currency: 'INR',
@@ -71,7 +71,7 @@ export const EMPLOYEES = [
     pension: { enrolled: true, contribution: 12, employer: 12 },
   },
   {
-    id: 'EMP-005', firstName: 'Amir', lastName: 'Razak', email: 'amir.razak@nexahr.com',
+    id: 'EMP-005', firstName: 'Amir', lastName: 'Razak', email: 'amir.razak@teamforsolutionhr.com',
     phone: '+60 12 345 6789', gender: 'Male', dob: '1991-09-10', country: 'MY',
     department: 'dep-4', designation: 'Marketing Manager', employmentType: 'Full-Time',
     joiningDate: '2020-11-15', salary: 85000, currency: 'MYR',
@@ -84,7 +84,7 @@ export const EMPLOYEES = [
     pension: { enrolled: true, contribution: 11, employer: 13 },
   },
   {
-    id: 'EMP-006', firstName: 'Charlotte', lastName: 'Davies', email: 'charlotte.davies@nexahr.com',
+    id: 'EMP-006', firstName: 'Charlotte', lastName: 'Davies', email: 'charlotte.davies@teamforsolutionhr.com',
     phone: '+44 7944 456789', gender: 'Female', dob: '1995-02-14', country: 'UK',
     department: 'dep-3', designation: 'Finance Analyst', employmentType: 'Full-Time',
     joiningDate: '2022-03-07', salary: 42000, currency: 'GBP',
@@ -97,7 +97,7 @@ export const EMPLOYEES = [
     pension: { enrolled: true, contribution: 5, employer: 8 },
   },
   {
-    id: 'EMP-007', firstName: 'Vikram', lastName: 'Nair', email: 'vikram.nair@nexahr.com',
+    id: 'EMP-007', firstName: 'Vikram', lastName: 'Nair', email: 'vikram.nair@teamforsolutionhr.com',
     phone: '+91 87654 32109', gender: 'Male', dob: '1989-12-01', country: 'IN',
     department: 'dep-5', designation: 'Operations Lead', employmentType: 'Full-Time',
     joiningDate: '2018-09-20', salary: 1500000, currency: 'INR',
@@ -191,15 +191,15 @@ export const PROJECTS = [
 export const ANNOUNCEMENTS = [
   { id: 'ANN-001', title: 'Bank Holiday - 28 August', body: 'All UK offices will be closed on Monday 28 August for the Summer Bank Holiday.', date: '2025-07-08', country: 'UK', priority: 'high' },
   { id: 'ANN-002', title: 'Annual Performance Reviews', body: 'Performance review season begins 1 September. Please ensure goals are updated in the system.', date: '2025-07-05', country: 'ALL', priority: 'medium' },
-  { id: 'ANN-003', title: 'New HRMS System Launch', body: 'Welcome to NeXa HR — your new HR platform. Explore your dashboard and update your profile.', date: '2025-07-01', country: 'ALL', priority: 'high' },
+  { id: 'ANN-003', title: 'New HRMS System Launch', body: 'Welcome to teamforsolution HR — your new HR platform. Explore your dashboard and update your profile.', date: '2025-07-01', country: 'ALL', priority: 'high' },
 ];
 
 export const USERS = [
-  { id: 'USR-001', employeeId: 'EMP-001', email: 'sarah.mitchell@nexahr.com', role: 'hr', status: 'active', lastLogin: '2025-07-09 09:15', password: 'hr123' },
-  { id: 'USR-002', employeeId: 'EMP-002', email: 'james.thornton@nexahr.com', role: 'employee', status: 'active', lastLogin: '2025-07-09 08:58', password: 'emp123' },
-  { id: 'USR-003', employeeId: 'EMP-003', email: 'robert.hargreaves@nexahr.com', role: 'admin', status: 'active', lastLogin: '2025-07-09 08:30', password: 'admin123' },
-  { id: 'USR-004', employeeId: 'EMP-004', email: 'priya.sharma@nexahr.com', role: 'employee', status: 'active', lastLogin: '2025-07-08 10:20', password: 'emp123' },
-  { id: 'USR-005', employeeId: 'EMP-005', email: 'amir.razak@nexahr.com', role: 'employee', status: 'active', lastLogin: '2025-07-08 09:45', password: 'emp123' },
+  { id: 'USR-001', employeeId: 'EMP-001', email: 'sarah.mitchell@teamforsolutionhr.com', role: 'hr', status: 'active', lastLogin: '2025-07-09 09:15', password: 'hr123' },
+  { id: 'USR-002', employeeId: 'EMP-002', email: 'james.thornton@teamforsolutionhr.com', role: 'employee', status: 'active', lastLogin: '2025-07-09 08:58', password: 'emp123' },
+  { id: 'USR-003', employeeId: 'EMP-003', email: 'robert.hargreaves@teamforsolutionhr.com', role: 'admin', status: 'active', lastLogin: '2025-07-09 08:30', password: 'admin123' },
+  { id: 'USR-004', employeeId: 'EMP-004', email: 'priya.sharma@teamforsolutionhr.com', role: 'employee', status: 'active', lastLogin: '2025-07-08 10:20', password: 'emp123' },
+  { id: 'USR-005', employeeId: 'EMP-005', email: 'amir.razak@teamforsolutionhr.com', role: 'employee', status: 'active', lastLogin: '2025-07-08 09:45', password: 'emp123' },
 ];
 
 export const PUBLIC_HOLIDAYS = {
@@ -230,10 +230,10 @@ export const PUBLIC_HOLIDAYS = {
 };
 
 export const AUDIT_LOGS = [
-  { id: 'LOG-001', action: 'Employee Created', user: 'sarah.mitchell@nexahr.com', target: 'EMP-006', timestamp: '2022-03-07 09:30:00', ip: '192.168.1.10' },
-  { id: 'LOG-002', action: 'Leave Approved', user: 'sarah.mitchell@nexahr.com', target: 'LV-001', timestamp: '2025-06-30 14:22:00', ip: '192.168.1.10' },
-  { id: 'LOG-003', action: 'User Role Changed', user: 'robert.hargreaves@nexahr.com', target: 'USR-001', timestamp: '2025-07-01 11:00:00', ip: '192.168.1.5' },
-  { id: 'LOG-004', action: 'Asset Assigned', user: 'sarah.mitchell@nexahr.com', target: 'AST-001', timestamp: '2019-06-15 10:15:00', ip: '192.168.1.10' },
-  { id: 'LOG-005', action: 'Payroll Processed', user: 'robert.hargreaves@nexahr.com', target: 'PAY-001', timestamp: '2025-07-01 08:00:00', ip: '192.168.1.5' },
-  { id: 'LOG-006', action: 'Login', user: 'james.thornton@nexahr.com', target: null, timestamp: '2025-07-09 08:58:00', ip: '192.168.1.22' },
+  { id: 'LOG-001', action: 'Employee Created', user: 'sarah.mitchell@teamforsolutionhr.com', target: 'EMP-006', timestamp: '2022-03-07 09:30:00', ip: '192.168.1.10' },
+  { id: 'LOG-002', action: 'Leave Approved', user: 'sarah.mitchell@teamforsolutionhr.com', target: 'LV-001', timestamp: '2025-06-30 14:22:00', ip: '192.168.1.10' },
+  { id: 'LOG-003', action: 'User Role Changed', user: 'robert.hargreaves@teamforsolutionhr.com', target: 'USR-001', timestamp: '2025-07-01 11:00:00', ip: '192.168.1.5' },
+  { id: 'LOG-004', action: 'Asset Assigned', user: 'sarah.mitchell@teamforsolutionhr.com', target: 'AST-001', timestamp: '2019-06-15 10:15:00', ip: '192.168.1.10' },
+  { id: 'LOG-005', action: 'Payroll Processed', user: 'robert.hargreaves@teamforsolutionhr.com', target: 'PAY-001', timestamp: '2025-07-01 08:00:00', ip: '192.168.1.5' },
+  { id: 'LOG-006', action: 'Login', user: 'james.thornton@teamforsolutionhr.com', target: null, timestamp: '2025-07-09 08:58:00', ip: '192.168.1.22' },
 ];

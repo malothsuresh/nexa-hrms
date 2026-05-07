@@ -1,4 +1,4 @@
-# ⚡ NeXa HR — Multi-Country HRMS
+# ⚡teamforsolution HR — Multi-Country HRMS
 
 A fully functional, production-grade **Human Resource Management System** supporting **UK 🇬🇧**, **India 🇮🇳**, and **Malaysia 🇲🇾** operations.
 
@@ -23,11 +23,11 @@ http://localhost:3000
 
 | Role | Email | Password |
 |------|-------|----------|
-| **Admin** | robert.hargreaves@nexahr.com | admin123 |
-| **HR Manager** | sarah.mitchell@nexahr.com | hr123 |
-| **Employee (UK)** | james.thornton@nexahr.com | emp123 |
-| **Employee (India)** | priya.sharma@nexahr.com | emp123 |
-| **Employee (Malaysia)** | amir.razak@nexahr.com | emp123 |
+| **Admin** | robert.hargreaves@teamforsolutionhr.com | admin123 |
+| **HR Manager** | sarah.mitchell@teamforsolutionhr.com | hr123 |
+| **Employee (UK)** | james.thornton@teamforsolutionhr.com | emp123 |
+| **Employee (India)** | priya.sharma@teamforsolutionhr.com | emp123 |
+| **Employee (Malaysia)** | amir.razak@teamforsolutionhr.com | emp123 |
 
 ---
 
@@ -177,4 +177,4 @@ MIT — Free to use and modify for commercial purposes.
 
 ---
 
-Built with ⚡ by NeXa HR Team
+Built with ⚡ by teamforsolution HR Team

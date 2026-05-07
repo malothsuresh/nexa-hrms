@@ -292,7 +292,7 @@ export function Settings() {
               <h3 style={{ color: '#f1f5f9', fontSize: 16, fontWeight: 600, margin: '0 0 20px' }}>System Configuration</h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                 {[
-                  { label: 'System Name', value: 'NeXa HR', desc: 'Display name across all interfaces' },
+                  { label: 'System Name', value: 'teamforsolutionHR', desc: 'Display name across all interfaces' },
                   { label: 'GDPR Compliance Mode', value: '✅ Enabled', desc: 'Enforces data retention and deletion policies' },
                   { label: 'Audit Logging', value: '✅ Enabled', desc: 'All user actions are logged' },
                   { label: 'Multi-Factor Authentication', value: '⚠️ Optional', desc: 'Recommended for HR and Admin roles' },
